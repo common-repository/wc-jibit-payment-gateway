@@ -1,0 +1,240 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Jibit Payment Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-23 15:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: filters.php:28
+msgid "Tokens reset."
+msgstr ""
+
+#: filters.php:33
+msgid "Reset Jibit Tokens"
+msgstr ""
+
+#: filters.php:34
+msgid "Reset"
+msgstr ""
+
+#: filters.php:36
+msgid "This will reset token and refresh token for pay request."
+msgstr ""
+
+#: actions.php:94
+msgid "Phone number is a required field."
+msgstr ""
+
+#: actions.php:97
+msgid "Phone number is invalid."
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:28
+#: class-jibit-woocommerce-payment-gateway.php:29
+msgid "Jibit Gateway"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:77
+#: class-jibit-woocommerce-payment-gateway.php:79
+msgid "Enable Jibit gateway"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:84
+msgid "Gateway title"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:86
+msgid "This title will be shown in checkout page"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:87
+msgid "Jibit Payment"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:91
+msgid "Gateway description"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:94
+msgid "Description will be shown on payment process to the user"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:95
+msgid "Pay with your Jibit account"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:98
+msgid "Gateway settings"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:103
+msgid "Merchant ID (username)"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:105
+msgid "Your merchant ID in Jibit"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:110
+msgid "Merchant Password"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:112
+msgid "Your merchant password"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:117
+msgid "Auto redirect to gateway"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:119
+msgid "Auto redirect to gateway in receipt page"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:124
+msgid "Messages"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:129
+msgid "Successful payment message"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:131
+msgid ""
+"Enter the message which will be shown to the customer after successful "
+"payment"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:132
+msgid "Your payment was successful"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:136
+msgid "Failed payment message"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:138
+msgid ""
+"Enter the message which will be shown to the customer after failed payment"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:139
+msgid "An error has occurred. Please try again."
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:143
+msgid "User canceled payment message"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:145
+msgid ""
+"This message will be shown when user has clicked on cancel button in gateway "
+"page."
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:146
+msgid "You have canceled the payment."
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:150
+msgid "Payment expired message"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:152
+msgid "This message will be shown when payment has expired."
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:153
+msgid "The payment is expired."
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:157
+msgid "Unverified payment message"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:159
+msgid "This message will be shown when order is not verified by Jibit."
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:160
+msgid "Couldn't verify order by Jibit. Please contact admin."
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:164
+msgid "Tools"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:169
+msgid "Enable debugging"
+msgstr ""
+
+#: class-jibit-woocommerce-payment-gateway.php:171
+msgid "Enables logs on errors"
+msgstr ""
+
+#: helpers.php:5
+msgid "Order created."
+msgstr ""
+
+#: helpers.php:7
+msgid "User redirected to Jibit payment gateway."
+msgstr ""
+
+#: helpers.php:54
+msgid "Order not found."
+msgstr ""
+
+#: helpers.php:66
+msgid "Payment method for requested order is not Jibit."
+msgstr ""
+
+#: helpers.php:75
+msgid "Jibit gateway supports only Rial and Toman currencies."
+msgstr ""
+
+#: helpers.php:91 helpers.php:122
+msgid "An error has occurred. Please notice site administrator."
+msgstr ""
+
+#: templates/payment-form.php:68
+msgid "Pay"
+msgstr ""
+
+#: templates/payment-form.php:70
+msgid "Return"
+msgstr ""
+
+#: templates/payment-form.php:73
+msgid ""
+"You will be redirected to the gateway in a while. If you didn't redirect "
+"automatically click on the pay button."
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Jibit Payment Gateway"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin adds Jibit payment gateway to WooCommerce."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://jibit.ir"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jibit Team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://jibit.ir/woocommerce-plugin"
+msgstr ""
